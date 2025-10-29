@@ -3,7 +3,6 @@ package core.basesyntax;
 import java.util.Random;
 
 public class IsoscelesTrapezoid extends Figure {
-    private final Random random = new Random();
     private double bottomBase;
     private double topBase;
     private double height;

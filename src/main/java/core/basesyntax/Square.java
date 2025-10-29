@@ -3,7 +3,6 @@ package core.basesyntax;
 import java.util.Random;
 
 public class Square extends Figure {
-    private final Random random = new Random();
     private double side;
 
     public Square() {
