@@ -4,10 +4,10 @@ public class Rectangle extends Figure {
     private double firstSide;
     private double secondSide;
 
-    public Rectangle() {
-        super();
-        firstSide = random.nextDouble(1.0, 50.0);
-        secondSide = random.nextDouble(1.0, 50.0);
+    public Rectangle(String color, double firstSide, double secondSide) {
+        super(color);
+        this.firstSide = firstSide;
+        this.secondSide = secondSide;
     }
 
     @Override

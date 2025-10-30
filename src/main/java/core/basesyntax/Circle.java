@@ -3,12 +3,7 @@ package core.basesyntax;
 public class Circle extends Figure {
     private double radius;
 
-    public Circle() {
-        super();
-        radius = random.nextDouble(1.0, 50.0);
-    }
-
-    public Circle(double radius, String color) {
+    public Circle(String color, double radius) {
         super(color);
         this.radius = radius;
     }

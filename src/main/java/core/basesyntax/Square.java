@@ -3,9 +3,9 @@ package core.basesyntax;
 public class Square extends Figure {
     private double side;
 
-    public Square() {
-        super();
-        side = random.nextDouble(1.0, 50.0);
+    public Square(String color, double side) {
+        super(color);
+        this.side = side;
     }
 
     @Override
